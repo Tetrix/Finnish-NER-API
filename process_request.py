@@ -94,8 +94,8 @@ def predict_result(input_path, output_path):
 
     # Ensure the request was successful.
     if r['success']:
+        #save output
         with open(output_path, 'w') as f:
-            #f.write(json.dumps(r, ensure_ascii=False))
             json.dump(r, f, ensure_ascii=False)
     else:
         print('Request failed')
