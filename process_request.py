@@ -40,43 +40,6 @@ virkaan
 
 
 **************************************
-
-The output will be in the following format:
-
-**************************************
-Kun	O
-Turun	B-ORG
-akatemian	I-ORG
-ensimmäinen	O
-fysiikan	O
-ja	O
-kasvitieteen	O
-professori	O
-Georgius	B-PER
-Alanus	I-PER
-siirtyi	O
-teologiseen	O
-tiedekuntaan	O
-
-Kolmen	O
-ehdokkaan	O
-joukosta	O
-pätevimmäksi	O
-katsottiin	O
-Thauvonius	B-PER
-,	O
-ja	O
-hän	O
-saikin	O
-nimityksen	O
-tähän	O
-virkaan	O
-1649	B-DATE
-.
-
-
-**************************************
-
 '''
 
 import json
