@@ -24,4 +24,4 @@ To start the server run: `python run_server.py`.
 
 To evaluate a document run: `python process_request.py --input input_document.txt --output output_document.txt`
 
-The format of the input file is described in the 'process_request.py' script.
+The format of the input file is described in the `process_request.py` script.
