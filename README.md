@@ -24,45 +24,4 @@ To start the server run: `python run_server.py`.
 
 To evaluate a document run: `python process_request.py --input input_document.txt --output output_document.txt`
 
-The format of the input file should be as following:
-Note: leave two empty rows at the end of the file
-
-`
-Kun
-
-Turun
-
-akatemian
-
-ensimmäinen
-
-fysiikan
-
-ja
-
-kasvitieteen
-
-professori
-
-Georgius
-
-Alanus
-
-siirtyi
-
-teologiseen
-
-tiedekuntaan
-
-Kolmen
-
-ehdokkaan
-
-joukosta
-
-pätevimmäksi
-
-katsottiin
-
-Thauvonius
-`
+The format of the input file is described in the 'process_request.py' script.
