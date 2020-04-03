@@ -253,8 +253,7 @@ def evaluate():
             indexed_morph = morph_to_idx(input_data, morph2idx, word2morph)
             indexed_input_data = combine_data(indexed_data, indexed_char, indexed_morph, MAX_SEQ_LENGTH)
 
-     
-            # Ensure an image was properly uploaded
+    
             print('Processing the document')
             result = evaluate_document(word_num_layers, char_num_layers, morph_num_layers, word_hidden_size, char_hidden_size, morph_hidden_size, batch_size, indexed_input_data, input_data, model, device)
             print('Done')
