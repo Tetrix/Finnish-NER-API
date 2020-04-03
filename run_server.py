@@ -268,7 +268,7 @@ def evaluate():
 if __name__ == '__main__':
     print('Loading embeddings...')
     #embeddings = gensim.models.KeyedVectors.load_word2vec_format('data/embeddings/fin-word2vec.bin', binary=True, limit=100000)
-    embeddings = gensim.models.fasttext.load_facebook_vectors('data/embeddings/cc.fi.300.bin')
+    embeddings = gensim.models.fasttext.load_facebook_vectors('weights/cc.fi.300.bin')
     print('Finished loading embeddings')
 
     #load the morfessor model
