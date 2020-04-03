@@ -11,7 +11,7 @@ This repository contains an API for using the Finnish NER system
 # Download resources
 The pretrained word embeddings can be downloaded from the following link: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fi.300.bin.gz .
 
-You need to place the embeddings in the data/embeddings directory.
+You need to place the embeddings in the `weights` directory.
 
 # Usage
 There are two models trained: `model_lower` and `model_upper`. The first one is trained on lower case data and without punctuation. 
