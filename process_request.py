@@ -50,7 +50,6 @@ URL = 'http://127.0.0.1:5000/predict'
 
 
 def predict_result(input_path, output_path):
-    # Initialize image path
     input_document = {'file': input_path}
     r = requests.post(URL, files=input_document).json()
     
